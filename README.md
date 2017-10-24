@@ -1,10 +1,12 @@
 # InsertionSort
 
 https://www.w3resource.com/csharp-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-6.php
+
 Resource to learn what it was
 
 https://gist.github.com/JerryBian/3214156
-Recource to learn the code
+
+Resource to learn the code
 
 I first had to learn what an insertion sort was.  once I understood what the final product should look like I searched for some code that I could understand how it was working.
 
