@@ -2,6 +2,7 @@
 
 https://www.w3resource.com/csharp-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-6.php
 Resource to learn what it was
+
 https://gist.github.com/JerryBian/3214156
 Recource to learn the code
 
