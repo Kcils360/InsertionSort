@@ -11,9 +11,9 @@ namespace InsertionSort
 
             int[] arr2 = { 69, 56, 77, 44, 8, 0, 566, 111 };
             int len2 = arr2.Length-1;
-            //Insertion sort = new Insertion();
+            Insertion sort = new Insertion();
 
-            //sort.InsertionSort(arr1);
+            sort.InsertionSort(arr1);
             //sort.InsertionSort(arr2);
 
             Merge merger = new Merge();
