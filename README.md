@@ -14,7 +14,7 @@ It requires 2 loops, the first for loop starts at position [0] and works up thro
 
 The final foreach loop is for printing the result to the console.
 
-#MergeSort
+# MergeSort
 
 http://www.geeksforgeeks.org/merge-sort/
 
