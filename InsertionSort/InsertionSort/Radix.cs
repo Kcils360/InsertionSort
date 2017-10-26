@@ -6,7 +6,7 @@ namespace InsertionSort
 {
     class Radix
     {
-        public void Radixsort(int[] arr, int n)
+        public int[] Radixsort(int[] arr, int n)
         {
             // Find the maximum number to know number of digits
             int m = GetMax(arr, n);
@@ -15,9 +15,11 @@ namespace InsertionSort
             {
                 CountSort(arr, n, exp);
             }
+            return arr;
+            
         }
         // A utility function to get maximum value in arr[]
-        public int GetMax(int[] arr, int n)
+        static public int GetMax(int[] arr, int n)
         {
             int mx = arr[0];
             for (int i = 1; i < n; i++)
@@ -26,7 +28,7 @@ namespace InsertionSort
             return mx;
         }
 
-        public int[] CountSort(int[] arr, int n, int exp)
+         static public void CountSort(int[] arr, int n, int exp)
         {
             int[] output = new int[n]; // output array
             int i;
@@ -34,10 +36,14 @@ namespace InsertionSort
             Array.Fill(count, 0);
 
             for (i = 0; i < n; i++)
+            {
                 count[(arr[i] / exp) % 10]++;
+            }
 
             for (i = 1; i < 10; i++)
+            {
                 count[i] += count[i - 1];
+            }
 
             for (i = n - 1; i >= 0; i--)
             {
@@ -49,10 +55,9 @@ namespace InsertionSort
             {
                 arr[i] = output[i];
             }
-            return (arr);
         }
 
-        public void Print(int[] arr)
+       public void Print(int[] arr)
         {
             for (int i = 0; i < arr.Length; i++)
                 Console.Write(arr[i] + " ");

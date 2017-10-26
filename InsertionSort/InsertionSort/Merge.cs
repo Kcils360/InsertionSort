@@ -57,7 +57,6 @@ namespace InsertionSort
             int len = numbers.Length;
             for (int i = 0; i < len; i++)
                 Console.Write(numbers[i] + " ");
-            Console.Read();
 
         }
 
