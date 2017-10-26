@@ -11,6 +11,7 @@ namespace InsertionSort
             // Find the maximum number to know number of digits
             int m = GetMax(arr, n);
 
+            //this handles moving from 1s to 10s, to 100s etc.
             for (int exp = 1; m / exp > 0; exp *= 10)
             {
                 CountSort(arr, n, exp);
@@ -50,7 +51,7 @@ namespace InsertionSort
                 output[count[(arr[i] / exp) % 10] - 1] = arr[i];
                 count[(arr[i] / exp) % 10]--;
             }
-
+            //output array is sorted here, this rearanges the original arr[] to match the sorted output array
             for (i = 0; i < n; i++)
             {
                 arr[i] = output[i];
