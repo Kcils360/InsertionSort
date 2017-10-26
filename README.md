@@ -26,3 +26,9 @@ Resource to learn the code
 
 First I looked up how a merge sort works.  After I figured that out, I searched for a code that I could understand and then adapt for myself. 
 The merge sort relies on a nested if statemnet inside of a while loop to handle to merge portion.  First, we split an array in half, then the halves in half, so on untill all integers have been split apart.  Then using 2 while loops in the if statement we reorder them from smallest to largest.
+
+# RadixSort
+
+http://www.geeksforgeeks.org/radix-sort/
+
+It took a bit to understand what happens with a Radix sort.  I had to look at several tutorials and a few gifs to grasp what happens.  I went into the code with a pretty understand of the basic movement of values, that is sorts by 1s, then 10s, then 100 etc. But I wasn't sure HOW it did it.  I was able to get code into the IDE and put a debug point on the final for loop in the count body, that's when I finally grasped it.  I was able to watch the "output array" sort step by step. Cool!
