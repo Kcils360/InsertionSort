@@ -31,4 +31,4 @@ The merge sort relies on a nested if statemnet inside of a while loop to handle 
 
 http://www.geeksforgeeks.org/radix-sort/
 
-It took a bit to understand what happens with a Radix sort.  I had to look at several tutorials and a few gifs to grasp what happens.  I went into the code with a pretty understand of the basic movement of values, that is sorts by 1s, then 10s, then 100 etc. But I wasn't sure HOW it did it.  I was able to get code into the IDE and put a debug point on the final for loop in the count body, that's when I finally grasped it.  I was able to watch the "output array" sort step by step. Cool!
+It took a bit to understand what happens with a Radix sort.  I had to look at several tutorials and a few gifs to grasp what happens.  I went into the code with a pretty basic understanding of the basic movement of values, that is sorts by 1s, then 10s, then 100 etc. But I wasn't sure HOW it did it.  I was able to get code into the IDE and put a debug point on the final for loop in the count body, that's when I finally grasped it.  I was able to watch the "output array" sort step by step. Cool!
