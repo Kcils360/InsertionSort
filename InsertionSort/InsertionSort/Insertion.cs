@@ -24,7 +24,7 @@ namespace InsertionSort
             {
                 Console.Write($"{point} ");
             }
-            Console.ReadKey();
+            //Console.ReadKey();
 
 
         }
