@@ -32,3 +32,9 @@ The merge sort relies on a nested if statemnet inside of a while loop to handle 
 http://www.geeksforgeeks.org/radix-sort/
 
 It took a bit to understand what happens with a Radix sort.  I had to look at several tutorials and a few gifs to grasp what happens.  I went into the code with a pretty basic understanding of the basic movement of values, that is sorts by 1s, then 10s, then 100 etc. But I wasn't sure HOW it did it.  I was able to get code into the IDE and put a debug point on the final for loop in the count body, that's when I finally grasped it.  I was able to watch the "output array" sort step by step. Cool!
+
+# QuickSort
+
+http://csharpexamples.com/c-quick-sort-algorithm-implementation/
+
+I used the wiki that was provided to get a basic understanding of how the quicksort works.  I was then able to find this code and impliment it on my own.  Initially, I understood that the array is sorted by starting at the start and end of the array and comparing the end value to the start value and then start++ untill it finds a start++ value greater that end value.  at that point, the end position is swapped with that position and the array is split.  this process is then repeated on the start side portion of code untill all positions are sorted.  it then completes this process on the yet unsorted side untill all values are sorted.  After implimentin my code, I was able to set a break point and watch the array shift around.  That's how I was able to understand what each while, if, and for loop did to the coade and what happend at each point.  
